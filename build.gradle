@@ -32,6 +32,7 @@ openApiGenerate {
     outputDir = "$buildDir/generated".toString()
     apiPackage = "org.openapi.example.api"
     modelPackage = "org.openapi.example.model"
+    templateDir = "$rootDir/templates".toString()
     configOptions = [
         dateLibrary                      : "java8",
         library                          : "multiplatform",
